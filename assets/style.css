@@ -1,0 +1,69 @@
+/* CSS GENERAL */
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 2rem;
+    color: blueviolet;
+    border: solid 2px rgb(104, 45, 160);
+    border-radius: 10px;
+    margin: 2rem;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 2rem;
+    color: green;
+    text-decoration: underline;
+}
+
+.centeredItems {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.textDesign {
+    margin: 2rem;
+}
+
+.imgOne {
+    margin-left: 2rem;
+    width: 30rem;
+    height: auto;
+}
+
+.imgTwo {
+    width: 20rem;
+    height: 10rem;
+    margin-left: 2rem;
+}
+
+.imageContainer {
+    display: flex;     /* Utilisation de Flexbox pour le centrage */
+    justify-content: center; /* Centre horizontalement */
+    margin-top: 1rem;  /* Marge en haut */
+    margin-bottom: 2rem;
+}
+
+.imgThree {
+    width: 50rem;     /* Largeur de l'image */
+    height: auto;     /* Hauteur automatique pour garder les proportions */
+}
+
+.imgFour {
+    width: 20rem;
+    height: auto;
+    margin-left: 8rem;
+}
+
+
+/* RECHERCHE */
+
+#resultat {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+  }
