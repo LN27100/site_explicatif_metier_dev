@@ -1,69 +1,116 @@
-/* CSS GENERAL */
+/* STYLE DU SITE, DECORATION, COULEURS ... */
+
+/* importation d'une police d'écriture */
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+/* Style pour les titres principaux */
 h1 {
-    text-align: center;
-    margin-top: 2rem;
+    text-align: center; /* centré dans la page */
+    margin-top: 2rem; /* marge en haut du titre */
 }
 
+/* Style pour les titres : centré, couleur de texte bleu-violet, avec une bordure et des coins arrondis */
 h2 {
     text-align: center;
     margin-top: 2rem;
-    color: blueviolet;
-    border: solid 2px rgb(104, 45, 160);
-    border-radius: 10px;
-    margin: 2rem;
+    color: #723dc2;
+    border: solid 2px #723dc2; /* Bordure violette de 2px d'épaisseur */
+    border-radius: 10px; /* Coins arrondis */
+    margin: 2rem; /* Marge extérieure du texte */
 }
 
+/* Style pour les titres: centré, texte de couleur verte, et soulignement */
 h3 {
     text-align: center;
     margin-top: 2rem;
     color: green;
-    text-decoration: underline;
+    text-decoration: underline; /* Soulignement du texte */
 }
 
+/* Container pour les images, utilisé pour centrer les images à l'intérieur */
 .centeredItems {
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
+    display: flex; /* Flexbox (boite flexible) pour la mise en page */
+    justify-content: center; /* Centrage horizontal des éléments */
+    margin-top: 2rem; /* Marge supérieure */
 }
 
+/* Container pour les textes */
 .textDesign {
-    margin: 2rem;
+    background-color: #d0b8b2; /* Couleur de fond du container */
+    box-shadow: 10px 15px 5px 3px #656565; /* Ombre portée sous le container */
+    padding: 2rem; /* Marge à l'intérieur du container */
+    border-radius: 10px; /* Coins arrondis */
+    margin: 2rem; /* Marge autour du container */
+}
+
+/* Container pour les images, utilisé pour centrer les images à l'intérieur */
+.imageContainer {
+    display: flex; /* Flexbox (boite flexible) pour la mise en page */
+    justify-content: center; /* Centrage horizontal du contenu */
+    margin-top: 1rem; /* Marge supérieure */
+    margin-bottom: 2rem; /* Marge inférieure */
 }
 
 .imgOne {
     margin-left: 2rem;
-    width: 30rem;
-    height: auto;
+    width: 30rem; /* Largeur de l'image */
+    height: auto; /* Hauteur ajustée automatiquement pour respecter les proportions */
 }
 
 .imgTwo {
-    width: 20rem;
-    height: 10rem;
-    margin-left: 2rem;
-}
-
-.imageContainer {
-    display: flex;     /* Utilisation de Flexbox pour le centrage */
-    justify-content: center; /* Centre horizontalement */
-    margin-top: 1rem;  /* Marge en haut */
-    margin-bottom: 2rem;
+    width: 20rem; /* Largeur de l'image */
+    height: 10rem; /* Hauteur de l'image */
+    margin-left: 2rem; /* Marge à gauche */
 }
 
 .imgThree {
-    width: 50rem;     /* Largeur de l'image */
-    height: auto;     /* Hauteur automatique pour garder les proportions */
+    width: 50rem; /* Largeur de l'image*/
+    height: auto; /* Hauteur automatique pour maintenir le ratio de l'image */
 }
 
 .imgFour {
-    width: 20rem;
-    height: auto;
-    margin-left: 8rem;
+    width: 20rem; /* Largeur de l'image */
+    height: auto; /* Hauteur automatique */
+    margin-left: 8rem; /* Marge à gauche */
 }
-
 
 /* RECHERCHE */
 
+/* Style avec des marges sur le haut et la gauche */
 #resultat {
-    margin-top: 1rem;
-    margin-left: 0.5rem;
-  }
+    margin-top: 1rem; /* Marge supérieure */
+    margin-left: 0.5rem; /* Marge gauche */
+}
+
+nav {
+    background-color: #35c3cc;
+}
+
+.navTittle {
+    font-family: "Shadows Into Light", cursive; /* Police d'écriture */
+    color: white; /* Couleur de police */
+    font-weight: bold; /* Style gras */
+    font-size: 1.5rem; /* Taille de police */
+}
+
+/* Scrollbar personnalisée */
+body::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #35c3cc;
+}

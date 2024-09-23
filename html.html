@@ -8,39 +8,41 @@
     <title>Site explicatif</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">SITE TEST</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="explication.html">Explication</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Pages
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="html.html">Html</a></li>
-                  <li><a class="dropdown-item" href="css.html">Css</a></li>
-                  <li><a class="dropdown-item" href="javascript.html">Javascript</a></li>
-                  <li><a class="dropdown-item" href="bootstrap.html">Bootstrap</a></li>
-                </ul>
-              </li>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navTittle navbar-brand">SITE EXPLICATIF</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="explication.html">Explication</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="html.html">Html</a></li>
+              <li><a class="dropdown-item" href="css.html">Css</a></li>
+              <li><a class="dropdown-item" href="javascript.html">Javascript</a></li>
+              <li><a class="dropdown-item" href="bootstrap.html">Bootstrap</a></li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="recherche" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Rechercher</button>
-            </form>
-          </div>
+          </li>
+        </ul>
+        <div class="d-flex">
+          <input id="recherche" class="form-control me-2" type="text" placeholder="Recherche" aria-label="Search">
+          <button class="btn btn-outline-light" onclick="afficherRecherche()">Rechercher</button>
+          <!-- Au clic du bouton rechercher, cela fait une action-->
         </div>
-      </nav>
+        <p id="resultat"></p>
+      </div>
+    </div>
+  </nav>
 
     <h2>Langage Html</h2>
 
