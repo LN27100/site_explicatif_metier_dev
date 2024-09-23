@@ -11,6 +11,7 @@
 </head>
 
 <body>
+  <!-- Barre de navigation Bootstrap -->
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <a class="navTittle navbar-brand">SITE EXPLICATIF</a>
@@ -21,23 +22,24 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+            <a class="nav-link active" aria-current="page" href="/index.html">Accueil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="explication.html">Explication</a>
+            <a class="nav-link" href="/pages/explication.html">Explication</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Pages
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="html.html">Html</a></li>
-              <li><a class="dropdown-item" href="css.html">Css</a></li>
-              <li><a class="dropdown-item" href="javascript.html">Javascript</a></li>
-              <li><a class="dropdown-item" href="bootstrap.html">Bootstrap</a></li>
+              <li><a class="dropdown-item" href="/pages/html.html">Html</a></li>
+              <li><a class="dropdown-item" href="/pages/css.html">Css</a></li>
+              <li><a class="dropdown-item" href="/pages/javascript.html">Javascript</a></li>
+              <li><a class="dropdown-item" href="/pages/bootstrap.html">Bootstrap</a></li>
             </ul>
           </li>
         </ul>
+        <!-- Barre de recherche -->
         <div class="d-flex">
           <input id="recherche" class="form-control me-2" type="text" placeholder="Recherche" aria-label="Search">
           <button class="btn btn-outline-light" onclick="afficherRecherche()">Rechercher</button>

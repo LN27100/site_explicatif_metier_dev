@@ -8,32 +8,35 @@
     <title>Site explicatif</title>
 </head>
 <body>
+  <!-- Barre de navigation Bootstrap -->
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <a class="navTittle navbar-brand">SITE EXPLICATIF</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+            <a class="nav-link active" aria-current="page" href="/index.html">Accueil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="explication.html">Explication</a>
+            <a class="nav-link" href="/pages/explication.html">Explication</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Pages
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="html.html">Html</a></li>
-              <li><a class="dropdown-item" href="css.html">Css</a></li>
-              <li><a class="dropdown-item" href="javascript.html">Javascript</a></li>
-              <li><a class="dropdown-item" href="bootstrap.html">Bootstrap</a></li>
+              <li><a class="dropdown-item" href="/pages/html.html">Html</a></li>
+              <li><a class="dropdown-item" href="/pages/css.html">Css</a></li>
+              <li><a class="dropdown-item" href="/pages/javascript.html">Javascript</a></li>
+              <li><a class="dropdown-item" href="/pages/bootstrap.html">Bootstrap</a></li>
             </ul>
           </li>
         </ul>
+        <!-- Barre de recherche -->
         <div class="d-flex">
           <input id="recherche" class="form-control me-2" type="text" placeholder="Recherche" aria-label="Search">
           <button class="btn btn-outline-light" onclick="afficherRecherche()">Rechercher</button>
@@ -44,25 +47,29 @@
     </div>
   </nav>
 
-    <h2>Framework Bootstrap</h2>
+    <h2>Langage Css</h2>
 
 <div class="textDesign">
     <p>
-      Bootstrap est un framework CSS qui facilite la création de sites web réactifs et élégants en fournissant des composants prêts à l'emploi, des styles préconçus et un système de grille flexible. Il simplifie la conception et l'intégration des éléments d'interface utilisateur, comme les boutons, les formulaires et les tableaux. Grâce à Bootstrap, tu peux rapidement construire des interfaces cohérentes et adaptatives pour différents appareils.
+      Le langage CSS (Cascading Style Sheets) sert à définir l'apparence et la mise en page des éléments d'une page web. Il permet de contrôler les couleurs, les polices, les marges, les alignements, et d'autres aspects visuels. CSS sépare le style du contenu HTML pour faciliter la maintenance et la personnalisation du design. Il améliore l'expérience utilisateur en rendant les sites plus attrayants et cohérents.
     </p>
 </div>
-    
+
 <h3>Exemple de code</h3>
 
 <div class="centeredItems">
-  <img src="assets/img/exempleBootstrap.png" alt="souris">
+  <img class="imgOne" src="/assets/img/exempleCss1.png" alt="code Css">
+  <img class="imgTwo" src="/assets/img/exempleCss2.png" alt="explication code css">
 </div>
 
 <h3>Rendu sur le site</h3>
 
-<div class="imageContainer"></div>
-  <img src="assets/img/exempleBootstrap2.png" alt="résultat code css">
+<div class="imageContainer">
+  <img class="imgThree" src="/assets/img/exempleCss3.png" alt="résultat code css">
 </div>
+
+    
+
 
 
 
